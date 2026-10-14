@@ -1,0 +1,10 @@
+.env
+.venv/
+user_data/data/
+user_data/logs/
+user_data/backtest_results/
+user_data/hyperopt_results/
+user_data/plot/
+*.sqlite*
+__pycache__/
+*.pyc
