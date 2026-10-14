@@ -34,6 +34,9 @@ class ReinforcedAverageStrategy(IStrategy):
     # Optimal timeframe for the strategy
     timeframe = '4h'
 
+    # SMA(50) on 12x-resampled (48h) candles needs 50 * 12 = 600 candles of history
+    startup_candle_count: int = 600
+
     # trailing stoploss
     trailing_stop = False
     trailing_stop_positive = 0.01
