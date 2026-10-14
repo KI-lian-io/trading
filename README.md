@@ -18,6 +18,18 @@ set -a; . ./.env; set +a
 3. Dry run (paper, live prices) for 2–4 weeks: `.venv/bin/freqtrade trade -c user_data/config.json --strategy SampleStrategy`
 4. Live: set `"dry_run": false` only after the dry run matches the backtest. Start with a small `stake_amount`.
 
+## Dry run: ReinforcedAverageStrategy
+
+`user_data/config_dryrun.json` paper-trades `ReinforcedAverageStrategy` (4h) on 12 USDT pairs with a 1000 USDT paper wallet, whole wallet in use (`stake_amount: unlimited`, 3 open trades).
+
+```bash
+cp .env.example .env   # fill in the FREQTRADE__API_SERVER__* values
+.venv/bin/freqtrade install-ui
+set -a && . ./.env && set +a && .venv/bin/freqtrade trade -c user_data/config_dryrun.json
+```
+
+FreqUI runs at http://127.0.0.1:8080 (log in with the username/password from `.env`). Trades are stored in `user_data/tradesv3.dryrun.sqlite`.
+
 ## Config notes
 
 - Stake currency is USDC, not USDT (EEA accounts lost USDT spot pairs under MiCA). Check which quote currency your account can trade.
