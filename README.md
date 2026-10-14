@@ -30,6 +30,10 @@ set -a && . ./.env && set +a && .venv/bin/freqtrade trade -c user_data/config_dr
 
 FreqUI runs at http://127.0.0.1:8080 (log in with the username/password from `.env`). Trades are stored in `user_data/tradesv3.dryrun.sqlite`.
 
+## Research ledger
+
+Every strategy idea tested so far, with results and lessons, is in [`research/`](research/README.md). Check it before testing something new.
+
 ## Config notes
 
 - Stake currency is USDC, not USDT (EEA accounts lost USDT spot pairs under MiCA). Check which quote currency your account can trade.

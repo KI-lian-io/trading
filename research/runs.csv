@@ -1,0 +1,188 @@
+hypothesis,label,period,strategy,mode,start,end,trades,trades_per_day,profit_pct,cagr_pct,max_dd_pct,profit_factor,win_pct,market_change_pct,tested_on,source_file
+H01,SampleStrategy,test,SampleStrategy,Spot,2025-01-01 16:40:00,2026-10-14 18:55:00,949,1.46,-20.99,-12.37,22.60,0.67,84.9,-31.54,2026-10-14,backtest.log
+H02,ADXMomentum,test,ADXMomentum,Spot,2025-01-01 20:00:00,2026-10-14 18:00:00,1247,1.92,-8.47,-4.85,10.70,0.86,80.9,-32.46,2026-10-14,ADXMomentum.log
+H02,ASDTSRockwellTrading,test,ASDTSRockwellTrading,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,10159,15.61,-94.95,-81.26,94.96,0.45,22.3,-30.22,2026-10-14,ASDTSRockwellTrading.log
+H02,AdxSmas,test,AdxSmas,Spot,2025-01-01 00:00:00,2026-10-14 18:00:00,740,1.14,-7.98,-4.55,15.24,0.85,43.5,-30.92,2026-10-14,AdxSmas.log
+H02,AverageStrategy,test,AverageStrategy,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,315,0.48,-0.99,-0.55,10.35,0.97,26.3,-30.67,2026-10-14,AverageStrategy.log
+H02,AwesomeMacd,test,AwesomeMacd,Spot,2025-01-01 00:00:00,2026-10-14 18:00:00,398,0.61,-7.47,-4.26,10.71,0.80,26.1,-30.92,2026-10-14,AwesomeMacd.log
+H02,Bandtastic,test,Bandtastic,Spot,2025-01-11 09:45:00,2026-10-14 18:45:00,3407,5.32,-38.90,-24.46,39.30,0.67,58.5,-31.45,2026-10-14,Bandtastic.log
+H02,BbandRsi,test,BbandRsi,Spot,2025-01-01 00:00:00,2026-10-14 18:00:00,216,0.33,-3.45,-1.95,9.41,0.88,62.5,-30.92,2026-10-14,BbandRsi.log
+H02,BinHV27,test,BinHV27,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,1334,2.05,-17.32,-10.11,17.48,0.62,52.0,-30.22,2026-10-14,BinHV27.log
+H02,BinHV45,test,BinHV45,Spot,2025-01-01 00:00:00,2026-10-14 19:06:00,29,0.04,0.52,0.29,0.52,1.50,86.2,-30.37,2026-10-14,BinHV45.log
+H02,CCIStrategy,test,CCIStrategy,Spot,2025-01-01 00:00:00,2026-10-14 19:06:00,1400,2.15,-15.81,-9.20,16.92,0.74,52.4,-30.37,2026-10-14,CCIStrategy.log
+H02,CMCWinner,test,CMCWinner,Spot,2025-01-01 00:00:00,2026-10-14 18:45:00,792,1.22,-12.97,-7.49,13.15,0.32,57.1,-30.41,2026-10-14,CMCWinner.log
+H02,ClucMay72018,test,ClucMay72018,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,91,0.14,-0.86,-0.48,1.96,0.80,76.9,-30.22,2026-10-14,ClucMay72018.log
+H02,CofiBitStrategy,test,CofiBitStrategy,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,6227,9.57,-61.23,-41.21,61.24,0.28,32.2,-30.22,2026-10-14,CofiBitStrategy.log
+H02,CombinedBinHAndCluc,test,CombinedBinHAndCluc,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,133,0.2,0.52,0.29,2.01,1.06,75.2,-30.22,2026-10-14,CombinedBinHAndCluc.log
+H02,CustomStoplossWithPSAR,test,CustomStoplossWithPSAR,Spot,2025-01-09 07:00:00,2026-10-14 18:00:00,14,0.02,-5.30,-3.04,11.05,0.52,21.4,-31.55,2026-10-14,CustomStoplossWithPSAR.log
+H02,Diamond,test,Diamond,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,611,0.94,-8.48,-4.85,9.53,0.57,69.9,-30.22,2026-10-14,Diamond.log
+H02,EMASkipPump,test,EMASkipPump,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,8124,12.48,-79.72,-59.12,79.86,0.59,52.5,-30.22,2026-10-14,EMASkipPump.log
+H02,Freqtrade_backtest_validation_freqtrade1,test,Freqtrade_backtest_validation_freqtrade1,Spot,2025-01-01 00:00:00,2026-10-14 18:00:00,1139,1.75,-10.00,-5.74,15.95,0.85,32.7,-30.92,2026-10-14,Freqtrade_backtest_validation_freqtrade1.log
+H02,HourBasedStrategy,test,HourBasedStrategy,Spot,2025-01-01 00:00:00,2026-10-14 18:00:00,856,1.31,-16.01,-9.32,22.82,0.79,61.4,-30.92,2026-10-14,HourBasedStrategy.log
+H02,Low_BB,test,Low_BB,Spot,2025-01-01 00:00:00,2026-10-14 19:06:00,30,0.05,0.64,0.36,1.02,1.34,26.7,-30.37,2026-10-14,Low_BB.log
+H02,MACDStrategy,test,MACDStrategy,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,401,0.62,-9.15,-5.24,12.06,0.69,94.8,-30.22,2026-10-14,MACDStrategy.log
+H02,MACDStrategy_crossed,test,MACDStrategy_crossed,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,506,0.78,-14.15,-8.20,16.49,0.60,85.4,-30.22,2026-10-14,MACDStrategy_crossed.log
+H02,MultiMa,test,MultiMa,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,64,0.1,-3.08,-1.74,6.61,0.72,54.7,-30.67,2026-10-14,MultiMa.log
+H02,MultiRSI,test,MultiRSI,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,3638,5.59,-33.04,-20.14,33.41,0.58,48.0,-30.22,2026-10-14,MultiRSI.log
+H02,PatternRecognition,test,PatternRecognition,Spot,2025-01-01 00:00:00,2026-10-13 00:00:00,71,0.11,-6.72,-3.83,10.39,0.70,69.0,-30.95,2026-10-14,PatternRecognition.log
+H02,PowerTower,test,PowerTower,Spot,2025-01-01 02:30:00,2026-10-14 18:55:00,33,0.05,-0.16,-0.09,0.19,0.25,33.3,-30.55,2026-10-14,PowerTower.log
+H02,Quickie,test,Quickie,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,451,0.69,-13.85,-8.02,15.39,0.63,91.4,-30.22,2026-10-14,Quickie.log
+H02,ReinforcedAverageStrategy,test,ReinforcedAverageStrategy,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,121,0.19,1.98,1.11,3.46,1.18,25.6,-30.67,2026-10-14,ReinforcedAverageStrategy.log
+H02,ReinforcedQuickie,test,ReinforcedQuickie,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,2337,3.59,-25.15,-14.99,26.15,0.69,63.2,-30.22,2026-10-14,ReinforcedQuickie.log
+H02,ReinforcedSmoothScalp,test,ReinforcedSmoothScalp,Spot,2025-01-01 00:00:00,2026-10-14 19:06:00,1724,2.65,-15.43,-8.97,15.56,0.44,38.2,-30.37,2026-10-14,ReinforcedSmoothScalp.log
+H02,Scalp,test,Scalp,Spot,2025-01-01 00:00:00,2026-10-14 19:06:00,10182,15.64,-94.95,-81.25,94.95,0.09,12.0,-30.37,2026-10-14,Scalp.log
+H02,Simple,test,Simple,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,1531,2.35,-16.17,-9.42,21.01,0.79,81.8,-30.22,2026-10-14,Simple.log
+H02,SmoothOperator,test,SmoothOperator,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,1824,2.8,-28.12,-16.90,28.74,0.69,56.9,-30.22,2026-10-14,SmoothOperator.log
+H02,SmoothScalp,test,SmoothScalp,Spot,2025-01-01 00:00:00,2026-10-14 19:06:00,5996,9.21,-55.96,-36.86,56.05,0.33,34.5,-30.37,2026-10-14,SmoothScalp.log
+H02,Strategy001,test,Strategy001,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,1053,1.62,-20.13,-11.84,23.32,0.71,87.0,-30.22,2026-10-14,Strategy001.log
+H02,Strategy001_custom_exit,test,Strategy001_custom_exit,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,1551,2.38,-28.59,-17.20,29.74,0.56,91.6,-30.22,2026-10-14,Strategy001_custom_exit.log
+H02,Strategy002,test,Strategy002,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,206,0.32,-3.63,-2.05,4.60,0.60,91.3,-30.22,2026-10-14,Strategy002.log
+H02,Strategy003,test,Strategy003,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,433,0.67,-5.89,-3.34,7.79,0.67,91.9,-30.22,2026-10-14,Strategy003.log
+H02,Strategy004,test,Strategy004,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,677,1.04,-11.63,-6.70,11.71,0.60,91.4,-30.22,2026-10-14,Strategy004.log
+H02,Strategy005,test,Strategy005,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,551,0.85,-19.25,-11.30,22.10,0.65,80.0,-30.22,2026-10-14,Strategy005.log
+H02,Supertrend,test,Supertrend,Spot,2025-01-09 07:00:00,2026-10-14 18:00:00,672,1.05,-8.94,-5.17,12.99,0.84,54.8,-31.55,2026-10-14,Supertrend.log
+H02,SwingHighToSky,test,SwingHighToSky,Spot,2025-01-01 00:00:00,2026-10-14 18:45:00,410,0.63,-9.18,-5.26,9.41,0.39,62.4,-30.41,2026-10-14,SwingHighToSky.log
+H02,TDSequentialStrategy,test,TDSequentialStrategy,Spot,2025-01-02 06:00:00,2026-10-14 18:00:00,545,0.84,-16.83,-9.83,19.24,0.70,50.6,-33.95,2026-10-14,TDSequentialStrategy.log
+H02,TechnicalExampleStrategy,test,TechnicalExampleStrategy,Spot,2025-01-01 00:00:00,2026-10-14 18:55:00,9844,15.12,-95.00,-81.37,95.00,0.37,32.1,-30.22,2026-10-14,TechnicalExampleStrategy.log
+H02,UniversalMACD,test,UniversalMACD,Spot,2025-01-01 02:30:00,2026-10-14 18:55:00,104,0.16,1.47,0.82,3.94,1.31,74.0,-30.55,2026-10-14,UniversalMACD.log
+H02,hlhb,test,hlhb,Spot,2025-01-06 00:00:00,2026-10-14 12:00:00,96,0.15,-5.04,-2.88,6.32,0.50,70.8,-37.05,2026-10-14,hlhb.log
+H02,mabStra,test,mabStra,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,313,0.48,-14.48,-8.40,20.12,0.74,55.9,-30.67,2026-10-14,mabStra.log
+H03,BinHV45_20230101,train,BinHV45,Spot,2023-01-01 00:00:00,2025-01-01 00:00:00,132,0.18,-1.07,-0.54,2.49,0.86,78.0,372.98,2026-10-14,BinHV45_20230101.log
+H03,BinHV45_20250101,test,BinHV45,Spot,2025-01-01 00:00:00,2026-10-14 19:22:00,111,0.17,-3.35,-1.89,5.21,0.60,71.2,-45.33,2026-10-14,BinHV45_20250101.log
+H03,CombinedBinHAndCluc_20230101,train,CombinedBinHAndCluc,Spot,2023-01-01 00:00:00,2025-01-01 00:00:00,452,0.62,1.99,0.99,4.54,1.07,76.1,373.50,2026-10-14,CombinedBinHAndCluc_20230101.log
+H03,CombinedBinHAndCluc_20250101,test,CombinedBinHAndCluc,Spot,2025-01-01 00:00:00,2026-10-14 19:15:00,327,0.5,-1.79,-1.01,6.58,0.92,72.8,-45.39,2026-10-14,CombinedBinHAndCluc_20250101.log
+H03,Low_BB_20230101,train,Low_BB,Spot,2023-01-01 00:00:00,2025-01-01 00:00:00,209,0.29,3.36,1.66,4.62,1.24,21.5,372.98,2026-10-14,Low_BB_20230101.log
+H03,Low_BB_20250101,test,Low_BB,Spot,2025-01-01 00:00:00,2026-10-14 19:22:00,125,0.19,-2.83,-1.60,5.49,0.68,16.8,-45.33,2026-10-14,Low_BB_20250101.log
+H03,ReinforcedAverageStrategy_20230101,train,ReinforcedAverageStrategy,Spot,2023-01-01 00:00:00,2025-01-01 00:00:00,269,0.37,16.94,8.13,3.54,1.65,33.5,376.24,2026-10-14,ReinforcedAverageStrategy_20230101.log
+H03,ReinforcedAverageStrategy_20250101,test,ReinforcedAverageStrategy,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,163,0.25,2.44,1.36,3.40,1.15,24.5,-45.80,2026-10-14,ReinforcedAverageStrategy_20250101.log
+H03,UniversalMACD_20230101,train,UniversalMACD,Spot,2023-01-01 02:30:00,2025-01-01 00:00:00,273,0.37,9.34,4.56,2.30,2.24,81.0,372.41,2026-10-14,UniversalMACD_20230101.log
+H03,UniversalMACD_20250101,test,UniversalMACD,Spot,2025-01-01 00:00:00,2026-10-14 19:15:00,216,0.33,0.50,0.28,7.97,1.04,71.8,-45.39,2026-10-14,UniversalMACD_20250101.log
+H04,ReinforcedAverageStrategy,full,ReinforcedAverageStrategy,Spot,2023-01-01 00:00:00,2026-10-14 12:00:00,463,0.34,136.63,25.54,32.84,1.24,30.0,182.83,2026-10-14,ReinforcedAverageStrategy.log
+H04,UniversalMACD,full,UniversalMACD,Spot,2023-01-01 02:30:00,2026-10-14 19:15:00,484,0.35,54.01,12.08,47.62,1.24,77.1,182.72,2026-10-14,UniversalMACD.log
+H05,RAS_Base_full,full,RAS_Base,Spot,2023-01-01 00:00:00,2026-10-14 12:00:00,463,0.34,136.63,25.54,32.84,1.24,30.0,182.83,2026-10-14,RAS_Base_full.log
+H05,RAS_Base_test,test,RAS_Base,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,163,0.25,7.20,3.97,21.14,1.07,24.5,-45.80,2026-10-14,RAS_Base_test.log
+H05,RAS_Base_train,train,RAS_Base,Spot,2023-01-01 00:00:00,2025-01-01 00:00:00,269,0.37,133.90,52.85,23.29,1.53,33.5,376.24,2026-10-14,RAS_Base_train.log
+H05,RAS_C1_ATR5_MaxDD_full,full,RAS_C1_ATR5_MaxDD,Spot,2023-04-11 00:00:00,2026-10-14 12:00:00,462,0.36,87.50,19.60,29.24,1.21,29.2,75.74,2026-10-14,RAS_C1_ATR5_MaxDD_full.log
+H05,RAS_C1_ATR5_MaxDD_test,test,RAS_C1_ATR5_MaxDD,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,190,0.29,13.03,7.11,28.14,1.10,26.3,-45.80,2026-10-14,RAS_C1_ATR5_MaxDD_test.log
+H05,RAS_C1_ATR5_MaxDD_train,train,RAS_C1_ATR5_MaxDD,Spot,2023-04-11 00:00:00,2025-01-01 00:00:00,270,0.43,67.42,34.73,23.99,1.36,31.5,191.68,2026-10-14,RAS_C1_ATR5_MaxDD_train.log
+H05,RAS_C2_ATR5_Cool_MaxDD_full,full,RAS_C2_ATR5_Cool_MaxDD,Spot,2023-04-11 00:00:00,2026-10-14 12:00:00,446,0.35,174.10,33.25,30.88,1.31,29.8,75.74,2026-10-14,RAS_C2_ATR5_Cool_MaxDD_full.log
+H05,RAS_C2_ATR5_Cool_MaxDD_test,test,RAS_C2_ATR5_Cool_MaxDD,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,185,0.28,12.42,6.79,28.85,1.09,27.0,-45.80,2026-10-14,RAS_C2_ATR5_Cool_MaxDD_test.log
+H05,RAS_C2_ATR5_Cool_MaxDD_train,train,RAS_C2_ATR5_Cool_MaxDD,Spot,2023-04-11 00:00:00,2025-01-01 00:00:00,258,0.41,146.52,68.52,20.36,1.64,32.2,191.68,2026-10-14,RAS_C2_ATR5_Cool_MaxDD_train.log
+H05,RAS_V1_Startup_full,full,RAS_V1_Startup,Spot,2023-04-11 00:00:00,2026-10-14 12:00:00,463,0.36,131.58,27.01,32.84,1.24,30.0,75.74,2026-10-14,RAS_V1_Startup_full.log
+H05,RAS_V1_Startup_test,test,RAS_V1_Startup,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,192,0.29,3.04,1.69,28.80,1.02,25.5,-45.80,2026-10-14,RAS_V1_Startup_test.log
+H05,RAS_V1_Startup_train,train,RAS_V1_Startup,Spot,2023-04-11 00:00:00,2025-01-01 00:00:00,269,0.43,128.91,61.45,23.29,1.53,33.5,191.68,2026-10-14,RAS_V1_Startup_train.log
+H05,RAS_V2_ATR3_full,full,RAS_V2_ATR3,Spot,2023-04-11 00:00:00,2026-10-14 12:00:00,556,0.43,8.40,2.32,33.12,1.02,30.6,75.74,2026-10-14,RAS_V2_ATR3_full.log
+H05,RAS_V2_ATR3_test,test,RAS_V2_ATR3,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,230,0.35,-13.01,-7.51,29.44,0.91,28.7,-45.80,2026-10-14,RAS_V2_ATR3_test.log
+H05,RAS_V2_ATR3_train,train,RAS_V2_ATR3,Spot,2023-04-11 00:00:00,2025-01-01 00:00:00,324,0.51,26.27,14.44,27.91,1.15,32.1,191.68,2026-10-14,RAS_V2_ATR3_train.log
+H05,RAS_V2_ATR4_full,full,RAS_V2_ATR4,Spot,2023-04-11 00:00:00,2026-10-14 12:00:00,495,0.39,28.13,7.31,40.01,1.08,28.9,75.74,2026-10-14,RAS_V2_ATR4_full.log
+H05,RAS_V2_ATR4_test,test,RAS_V2_ATR4,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,204,0.31,-16.70,-9.74,34.55,0.86,27.0,-45.80,2026-10-14,RAS_V2_ATR4_test.log
+H05,RAS_V2_ATR4_train,train,RAS_V2_ATR4,Spot,2023-04-11 00:00:00,2025-01-01 00:00:00,289,0.46,56.49,29.57,22.09,1.30,30.4,191.68,2026-10-14,RAS_V2_ATR4_train.log
+H05,RAS_V2_ATR5_full,full,RAS_V2_ATR5,Spot,2023-04-11 00:00:00,2026-10-14 12:00:00,473,0.37,74.18,17.12,33.39,1.18,29.4,75.74,2026-10-14,RAS_V2_ATR5_full.log
+H05,RAS_V2_ATR5_test,test,RAS_V2_ATR5,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,192,0.29,12.54,6.85,28.68,1.10,26.0,-45.80,2026-10-14,RAS_V2_ATR5_test.log
+H05,RAS_V2_ATR5_train,train,RAS_V2_ATR5,Spot,2023-04-11 00:00:00,2025-01-01 00:00:00,279,0.44,58.12,30.35,23.99,1.30,31.9,191.68,2026-10-14,RAS_V2_ATR5_train.log
+H05,RAS_V2_ATR6_full,full,RAS_V2_ATR6,Spot,2023-04-11 00:00:00,2026-10-14 12:00:00,470,0.37,74.47,17.17,34.37,1.18,28.3,75.74,2026-10-14,RAS_V2_ATR6_full.log
+H05,RAS_V2_ATR6_test,test,RAS_V2_ATR6,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,193,0.3,5.24,2.90,28.80,1.04,25.4,-45.80,2026-10-14,RAS_V2_ATR6_test.log
+H05,RAS_V2_ATR6_train,train,RAS_V2_ATR6,Spot,2023-04-11 00:00:00,2025-01-01 00:00:00,275,0.44,68.82,35.38,22.77,1.34,30.5,191.68,2026-10-14,RAS_V2_ATR6_train.log
+H05,RAS_V3_ADX20_full,full,RAS_V3_ADX20,Spot,2023-04-11 00:00:00,2026-10-14 12:00:00,303,0.24,80.10,18.24,42.79,1.20,29.4,75.74,2026-10-14,RAS_V3_ADX20_full.log
+H05,RAS_V3_ADX20_test,test,RAS_V3_ADX20,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,120,0.18,-32.89,-20.04,40.21,0.59,23.3,-45.80,2026-10-14,RAS_V3_ADX20_test.log
+H05,RAS_V3_ADX20_train,train,RAS_V3_ADX20,Spot,2023-04-11 00:00:00,2025-01-01 00:00:00,182,0.29,171.42,78.17,14.10,1.99,33.5,191.68,2026-10-14,RAS_V3_ADX20_train.log
+H05,RAS_V3_ADX25_full,full,RAS_V3_ADX25,Spot,2023-04-11 00:00:00,2026-10-14 12:00:00,176,0.14,-21.19,-6.56,26.71,0.83,25.6,75.74,2026-10-14,RAS_V3_ADX25_full.log
+H05,RAS_V3_ADX25_test,test,RAS_V3_ADX25,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,63,0.1,-19.01,-11.15,19.01,0.60,23.8,-45.80,2026-10-14,RAS_V3_ADX25_test.log
+H05,RAS_V3_ADX25_train,train,RAS_V3_ADX25,Spot,2023-04-11 00:00:00,2025-01-01 00:00:00,113,0.18,-2.70,-1.57,23.33,0.96,26.5,191.68,2026-10-14,RAS_V3_ADX25_train.log
+H05,RAS_V4_BTC_full,full,RAS_V4_BTC,Spot,2023-04-11 00:00:00,2026-10-14 12:00:00,413,0.32,97.39,21.36,36.32,1.19,29.8,75.74,2026-10-14,RAS_V4_BTC_full.log
+H05,RAS_V4_BTC_test,test,RAS_V4_BTC,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,178,0.27,-12.87,-7.43,36.32,0.90,24.7,-45.80,2026-10-14,RAS_V4_BTC_test.log
+H05,RAS_V4_BTC_train,train,RAS_V4_BTC,Spot,2023-04-11 00:00:00,2025-01-01 00:00:00,235,0.37,126.26,60.37,20.69,1.56,33.6,191.68,2026-10-14,RAS_V4_BTC_train.log
+H05,RAS_V5_Prot_full,full,RAS_V5_Prot,Spot,2023-04-11 00:00:00,2026-10-14 12:00:00,438,0.34,235.29,41.12,30.83,1.31,30.1,75.74,2026-10-14,RAS_V5_Prot_full.log
+H05,RAS_V5_Prot_test,test,RAS_V5_Prot,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,184,0.28,0.17,0.10,29.65,1.00,26.1,-45.80,2026-10-14,RAS_V5_Prot_test.log
+H05,RAS_V5_Prot_train,train,RAS_V5_Prot,Spot,2023-04-11 00:00:00,2025-01-01 00:00:00,251,0.4,236.58,101.79,21.99,1.82,33.5,191.68,2026-10-14,RAS_V5_Prot_train.log
+H05,RAS_V5a_Cooldown_full,full,RAS_V5a_Cooldown,Spot,2023-04-11 00:00:00,2026-10-14 12:00:00,452,0.35,209.70,37.97,33.08,1.30,30.1,75.74,2026-10-14,RAS_V5a_Cooldown_full.log
+H05,RAS_V5a_Cooldown_test,test,RAS_V5a_Cooldown,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,187,0.29,2.02,1.13,29.33,1.01,26.2,-45.80,2026-10-14,RAS_V5a_Cooldown_test.log
+H05,RAS_V5a_Cooldown_train,train,RAS_V5a_Cooldown,Spot,2023-04-11 00:00:00,2025-01-01 00:00:00,263,0.42,209.19,92.12,22.83,1.72,33.1,191.68,2026-10-14,RAS_V5a_Cooldown_train.log
+H05,RAS_V5b_SLGuard_full,full,RAS_V5b_SLGuard,Spot,2023-04-11 00:00:00,2026-10-14 12:00:00,463,0.36,131.58,27.01,32.84,1.24,30.0,75.74,2026-10-14,RAS_V5b_SLGuard_full.log
+H05,RAS_V5b_SLGuard_test,test,RAS_V5b_SLGuard,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,192,0.29,3.04,1.69,28.80,1.02,25.5,-45.80,2026-10-14,RAS_V5b_SLGuard_test.log
+H05,RAS_V5b_SLGuard_train,train,RAS_V5b_SLGuard,Spot,2023-04-11 00:00:00,2025-01-01 00:00:00,269,0.43,128.91,61.45,23.29,1.53,33.5,191.68,2026-10-14,RAS_V5b_SLGuard_train.log
+H05,RAS_V5c_MaxDD_full,full,RAS_V5c_MaxDD,Spot,2023-04-11 00:00:00,2026-10-14 12:00:00,451,0.35,144.31,28.96,28.85,1.26,29.5,75.74,2026-10-14,RAS_V5c_MaxDD_full.log
+H05,RAS_V5c_MaxDD_test,test,RAS_V5c_MaxDD,Spot,2025-01-01 00:00:00,2026-10-14 12:00:00,189,0.29,3.55,1.98,28.25,1.03,25.9,-45.80,2026-10-14,RAS_V5c_MaxDD_test.log
+H05,RAS_V5c_MaxDD_train,train,RAS_V5c_MaxDD,Spot,2023-04-11 00:00:00,2025-01-01 00:00:00,260,0.41,136.84,64.67,24.05,1.58,32.3,191.68,2026-10-14,RAS_V5c_MaxDD_train.log
+H06,bt_L1,full,Lev_L1,Isolated Futures,2023-01-01 00:00:00,2026-10-14 12:00:00,467,0.34,135.92,25.44,32.54,1.25,30.4,182.87,2026-10-14,bt_L1.txt
+H06,bt_L2,full,Lev_L2,Isolated Futures,2023-01-01 00:00:00,2026-10-14 12:00:00,487,0.35,192.85,32.81,49.48,1.14,30.6,182.87,2026-10-14,bt_L2.txt
+H06,bt_L2sl40,full,Lev_L2sl40,Isolated Futures,2023-01-01 00:00:00,2026-10-14 12:00:00,486,0.35,160.53,28.77,51.85,1.12,30.7,182.87,2026-10-14,bt_L2sl40.txt
+H06,bt_L3,full,Lev_L3,Isolated Futures,2023-01-01 00:00:00,2026-10-14 12:00:00,516,0.37,24.46,5.95,70.91,1.02,30.0,182.87,2026-10-14,bt_L3.txt
+H06,bt_L3sl60,full,Lev_L3sl60,Isolated Futures,2023-01-01 00:00:00,2026-10-14 12:00:00,509,0.37,141.78,26.26,71.70,1.05,31.2,182.87,2026-10-14,bt_L3sl60.txt
+H06,bt_L5,full,Lev_L5,Isolated Futures,2023-01-01 00:00:00,2026-10-14 12:00:00,580,0.42,-86.57,-41.16,95.07,0.84,29.1,182.87,2026-10-14,bt_L5.txt
+H06,bt_L5sl100,full,Lev_L5sl100,Isolated Futures,2023-01-01 00:00:00,2026-10-14 12:00:00,556,0.4,-32.84,-9.98,87.20,0.98,32.6,182.87,2026-10-14,bt_L5sl100.txt
+H07,out_c0_test,test,TrendIntra,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,6691,10.28,-93.21,-77.86,94.28,0.82,22.7,-45.55,2026-10-14,out_c0_test.txt
+H07,out_c1_1x_maker,test,TrendIntra,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,3176,4.88,-59.39,-39.66,63.51,0.87,19.7,-45.55,2026-10-14,out_c1_1x_maker.txt
+H07,out_c0_train,train,TrendIntra,Isolated Futures,2023-01-03 14:30:00,2025-01-01 00:00:00,7874,10.82,-78.72,-53.97,90.22,0.83,21.9,336.42,2026-10-14,out_c0_train.txt
+H07,out_c1_2x_def,test,TrendIntra,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,3160,4.85,-96.35,-84.37,96.92,0.78,19.1,-45.55,2026-10-14,out_c1_2x_def.txt
+H07,out_c1_2x_maker,test,TrendIntra,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,3177,4.88,-88.23,-69.87,90.14,0.85,19.7,-45.55,2026-10-14,out_c1_2x_maker.txt
+H07,out_c1_test,test,TrendIntra,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,3175,4.88,-78.39,-57.64,80.21,0.80,19.1,-45.55,2026-10-14,out_c1_test.txt
+H07,out_c1_train,train,TrendIntra,Isolated Futures,2023-01-03 14:30:00,2025-01-01 00:00:00,3664,5.03,-51.23,-30.23,64.00,0.89,20.6,336.42,2026-10-14,out_c1_train.txt
+H07,out_c2_test,test,TrendIntra,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,7142,10.97,-94.02,-79.38,94.89,0.81,21.0,-45.55,2026-10-14,out_c2_test.txt
+H07,out_c2_train,train,TrendIntra,Isolated Futures,2023-01-03 14:30:00,2025-01-01 00:00:00,8403,11.54,-82.80,-58.63,91.27,0.80,20.1,336.42,2026-10-14,out_c2_train.txt
+H07,out_c3_test,test,TrendIntra,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,6490,9.97,-94.02,-79.39,94.71,0.81,23.3,-45.55,2026-10-14,out_c3_test.txt
+H07,out_c3_train,train,TrendIntra,Isolated Futures,2023-01-03 14:30:00,2025-01-01 00:00:00,7681,10.55,-80.89,-56.38,89.73,0.83,22.4,336.42,2026-10-14,out_c3_train.txt
+H07,out_c4_test,test,TrendIntra,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,8218,12.62,-96.69,-85.21,97.00,0.80,29.8,-45.55,2026-10-14,out_c4_test.txt
+H07,out_c4_train,train,TrendIntra,Isolated Futures,2023-01-03 14:30:00,2025-01-01 00:00:00,10180,13.98,-93.71,-75.02,93.96,0.78,29.4,336.42,2026-10-14,out_c4_train.txt
+H07,out_c5_test,test,TrendIntra,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:30:00,12707,19.52,-98.71,-91.28,98.83,0.78,21.8,-45.45,2026-10-14,out_c5_test.txt
+H07,out_c5_train,train,TrendIntra,Isolated Futures,2023-01-01 20:50:00,2025-01-01 00:00:00,11022,15.1,-98.72,-88.66,98.79,0.64,18.9,372.14,2026-10-14,out_c5_train.txt
+H08,bt_B1m_test,test,MeanRev,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,2212,3.4,-59.52,-39.77,59.79,0.77,38.0,-45.55,2026-10-14,bt_B1m_test.txt
+H08,bt_A_train,train,MeanRev,Isolated Futures,2023-01-05 04:00:00,2025-01-01 00:00:00,6634,9.14,-96.00,-80.18,96.48,0.66,41.0,321.41,2026-10-14,bt_A_train.txt
+H08,bt_B1m_train,train,MeanRev,Isolated Futures,2023-01-05 04:00:00,2025-01-01 00:00:00,2539,3.5,-57.94,-35.30,60.38,0.80,38.6,321.41,2026-10-14,bt_B1m_train.txt
+H08,bt_A_test,test,MeanRev,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,5971,9.17,-97.80,-88.24,97.85,0.58,38.9,-45.55,2026-10-14,bt_A_test.txt
+H08,bt_B_test,test,MeanRev,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,2212,3.4,-73.24,-52.25,73.41,0.68,37.1,-45.55,2026-10-14,bt_B_test.txt
+H08,bt_B2m_test,test,MeanRev,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,2212,3.4,-84.62,-64.99,84.83,0.76,38.0,-45.55,2026-10-14,bt_B2m_test.txt
+H08,bt_B_train,train,MeanRev,Isolated Futures,2023-01-05 04:00:00,2025-01-01 00:00:00,2537,3.49,-74.41,-49.60,75.41,0.70,37.5,321.41,2026-10-14,bt_B_train.txt
+H08,bt_B2_test,test,MeanRev,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,2195,3.37,-93.05,-77.58,93.14,0.68,37.2,-45.55,2026-10-14,bt_B2_test.txt
+H08,bt_D_test,test,MeanRev,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:30:00,8851,13.6,-98.71,-91.29,98.72,0.62,40.3,-45.45,2026-10-14,bt_D_test.txt
+H08,bt_C_train,train,MeanRev,Isolated Futures,2023-01-05 04:00:00,2025-01-01 00:00:00,8042,11.08,-98.72,-88.81,98.74,0.69,40.4,321.41,2026-10-14,bt_C_train.txt
+H08,bt_D_train,train,MeanRev,Isolated Futures,2023-01-02 09:20:00,2025-01-01 00:00:00,10162,13.94,-98.71,-88.68,98.71,0.62,40.9,349.68,2026-10-14,bt_D_train.txt
+H08,bt_F_test,test,MeanRev,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,3828,5.88,-93.73,-78.83,93.81,0.66,37.0,-45.55,2026-10-14,bt_F_test.txt
+H08,bt_E_train,train,MeanRev,Isolated Futures,2023-01-02 09:20:00,2025-01-01 00:00:00,6792,9.32,-91.13,-70.26,91.17,0.69,39.6,349.68,2026-10-14,bt_E_train.txt
+H08,bt_C_test,test,MeanRev,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,4770,7.33,-98.71,-91.29,98.72,0.57,38.3,-45.55,2026-10-14,bt_C_test.txt
+H08,bt_F_train,train,MeanRev,Isolated Futures,2023-01-05 04:00:00,2025-01-01 00:00:00,4561,6.28,-92.02,-71.95,92.37,0.75,38.6,321.41,2026-10-14,bt_F_train.txt
+H08,bt_E_test,test,MeanRev,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:30:00,5907,9.07,-95.45,-82.33,95.50,0.59,36.2,-45.45,2026-10-14,bt_E_test.txt
+H09,bt_B2_test,test,B2,Isolated Futures,2025-01-01 00:00:00,2026-10-14 19:00:00,2317,3.56,-75.90,-54.97,78.76,0.78,33.4,-45.93,2026-10-14,bt_B2_test.txt
+H09,bt_B1_train,train,B1,Isolated Futures,2023-01-06 00:00:00,2025-01-01 00:00:00,3514,4.84,-90.15,-68.82,90.60,0.73,32.4,326.61,2026-10-14,bt_B1_train.txt
+H09,bt_B1_test,test,B1,Isolated Futures,2025-01-01 00:00:00,2026-10-14 19:00:00,3021,4.64,-84.27,-64.55,86.58,0.76,33.3,-45.93,2026-10-14,bt_B1_test.txt
+H09,bt_B2_train,train,B2,Isolated Futures,2023-01-06 00:00:00,2025-01-01 00:00:00,2694,3.71,-79.40,-54.81,83.90,0.77,32.7,326.61,2026-10-14,bt_B2_train.txt
+H09,bt_B3_test,test,B3,Isolated Futures,2025-01-01 00:00:00,2026-10-14 19:00:00,3597,5.53,-91.25,-74.48,92.65,0.74,33.1,-45.93,2026-10-14,bt_B3_test.txt
+H09,bt_B3_train,train,B3,Isolated Futures,2023-01-06 00:00:00,2025-01-01 00:00:00,4059,5.59,-95.41,-78.76,95.61,0.70,31.9,326.61,2026-10-14,bt_B3_train.txt
+H09,bt_B4_test,test,B4,Isolated Futures,2025-01-01 00:00:00,2026-10-14 19:00:00,2154,3.31,-64.35,-43.91,72.84,0.85,31.9,-45.93,2026-10-14,bt_B4_test.txt
+H09,bt_B4_train,train,B4,Isolated Futures,2023-01-06 00:00:00,2025-01-01 00:00:00,2508,3.45,-75.07,-50.26,79.59,0.81,32.1,326.61,2026-10-14,bt_B4_train.txt
+H09,bt_B5_test,test,B5,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,6893,10.59,-98.03,-88.93,98.19,0.65,27.5,-45.55,2026-10-14,bt_B5_test.txt
+H09,bt_B5_train,train,B5,Isolated Futures,2023-01-03 02:00:00,2025-01-01 00:00:00,7168,9.85,-98.72,-88.75,98.81,0.66,26.6,352.03,2026-10-14,bt_B5_train.txt
+H09,bt_B6L2_test,test,B6L2,Isolated Futures,2025-01-01 00:00:00,2026-10-14 19:00:00,1597,2.45,-90.73,-73.65,93.34,0.83,33.0,-45.93,2026-10-14,bt_B6L2_test.txt
+H09,bt_B6L2_test_maker,test,B6L2,Isolated Futures,2025-01-01 00:00:00,2026-10-14 19:00:00,1595,2.45,-82.43,-62.28,87.92,0.87,33.7,-45.93,2026-10-14,bt_B6L2_test_maker.txt
+H09,bt_B6_test_maker,test,B6,Isolated Futures,2025-01-01 00:00:00,2026-10-14 19:00:00,1595,2.45,-51.17,-33.10,60.91,0.88,33.7,-45.93,2026-10-14,bt_B6_test_maker.txt
+H09,bt_B6_train,train,B6,Isolated Futures,2023-01-06 00:00:00,2025-01-01 00:00:00,1866,2.57,-61.14,-37.82,77.72,0.84,32.8,326.61,2026-10-14,bt_B6_train.txt
+H09,bt_B6_test,test,B6,Isolated Futures,2025-01-01 00:00:00,2026-10-14 19:00:00,1595,2.45,-63.72,-43.36,70.00,0.84,33.1,-45.93,2026-10-14,bt_B6_test.txt
+H10,out_A_tr,train,StTrend,Isolated Futures,2023-01-11 10:00:00,2025-01-01 00:00:00,952,1.32,7.55,3.76,47.32,1.02,35.8,288.92,2026-10-14,out_A_tr.txt
+H10,out_B_tr,train,StTrend,Isolated Futures,2023-01-11 10:00:00,2025-01-01 00:00:00,1683,2.34,0.19,0.10,57.56,1.00,35.3,288.92,2026-10-14,out_B_tr.txt
+H10,out_C1tr_m,train,StTrend,Isolated Futures,2023-01-11 10:00:00,2025-01-01 00:00:00,644,0.89,34.82,16.35,50.31,1.11,33.5,288.92,2026-10-14,out_C1tr_m.txt
+H10,out_C2m,test,StTrend,Isolated Futures,2025-01-01 00:00:00,2026-10-14 19:00:00,639,0.98,-36.19,-22.26,61.33,0.94,36.2,-45.93,2026-10-14,out_C2m.txt
+H10,out_A_te,test,StTrend,Isolated Futures,2025-01-01 00:00:00,2026-10-14 19:00:00,974,1.5,-57.44,-38.05,70.86,0.84,32.8,-45.93,2026-10-14,out_A_te.txt
+H10,out_B_te,test,StTrend,Isolated Futures,2025-01-01 00:00:00,2026-10-14 19:00:00,1574,2.42,-35.61,-21.87,63.44,0.93,32.9,-45.93,2026-10-14,out_B_te.txt
+H10,out_C_tr,train,StTrend,Isolated Futures,2023-01-11 10:00:00,2025-01-01 00:00:00,644,0.89,21.85,10.54,52.44,1.07,32.8,288.92,2026-10-14,out_C_tr.txt
+H10,out_D_tr,train,StTrend,Isolated Futures,2023-01-11 10:00:00,2025-01-01 00:00:00,1169,1.62,-55.64,-33.77,69.18,0.86,35.2,288.92,2026-10-14,out_D_tr.txt
+H10,out_C1m,test,StTrend,Isolated Futures,2025-01-01 00:00:00,2026-10-14 19:00:00,637,0.98,-31.75,-19.28,39.73,0.91,36.1,-45.93,2026-10-14,out_C1m.txt
+H10,out_C2,test,StTrend,Isolated Futures,2025-01-01 00:00:00,2026-10-14 19:00:00,639,0.98,-50.41,-32.52,63.58,0.91,35.8,-45.93,2026-10-14,out_C2.txt
+H10,out_E_tr,train,StTrend,Isolated Futures,2023-01-03 14:30:00,2025-01-01 00:00:00,4020,5.52,-65.74,-41.56,77.68,0.88,32.9,336.42,2026-10-14,out_E_tr.txt
+H10,out_C_te,test,StTrend,Isolated Futures,2025-01-01 00:00:00,2026-10-14 19:00:00,637,0.98,-40.79,-25.46,47.41,0.88,35.8,-45.93,2026-10-14,out_C_te.txt
+H10,out_F_tr,train,StTrend,Isolated Futures,2023-01-03 14:30:00,2025-01-01 00:00:00,4529,6.22,-83.95,-60.03,84.46,0.80,30.9,336.42,2026-10-14,out_F_tr.txt
+H10,out_D_te,test,StTrend,Isolated Futures,2025-01-01 00:00:00,2026-10-14 19:00:00,1163,1.79,-71.62,-50.65,80.14,0.81,34.1,-45.93,2026-10-14,out_D_te.txt
+H10,out_E_te,test,StTrend,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,3714,5.71,-49.84,-32.08,57.61,0.93,33.5,-45.55,2026-10-14,out_E_te.txt
+H10,out_F_te,test,StTrend,Isolated Futures,2025-01-01 00:00:00,2026-10-14 20:15:00,4282,6.58,-44.83,-28.36,68.09,0.97,33.7,-45.55,2026-10-14,out_F_te.txt
+H11,b_long_full,full,GuideBot,Isolated Futures,2023-02-06 16:00:00,2026-10-14 12:00:00,274,0.2,-15.09,-4.34,24.72,0.88,27.0,215.36,2026-10-14,b_long_full.txt
+H11,b_long_test,test,GuideBot,Isolated Futures,2025-01-01 00:00:00,2026-10-14 12:00:00,135,0.21,-22.01,-13.01,22.71,0.59,23.0,-28.68,2026-10-14,b_long_test.txt
+H11,a12_full,full,GuideBot,Isolated Futures,2023-02-06 16:00:00,2026-10-14 12:00:00,1220,0.91,75.99,16.58,38.93,1.08,30.5,88.19,2026-10-14,a12_full.txt
+H11,a12_test,test,GuideBot,Isolated Futures,2025-01-01 00:00:00,2026-10-14 12:00:00,593,0.91,-18.23,-10.67,39.14,0.93,27.5,-45.80,2026-10-14,a12_test.txt
+H11,capcheck,test,GuideBot,Isolated Futures,2025-01-01 00:00:00,2026-10-14 12:00:00,265,0.41,-24.64,-14.67,33.87,0.79,24.5,-28.68,2026-10-14,capcheck.txt
+H11,c_lev2_full,full,GuideBot,Isolated Futures,2023-02-06 16:00:00,2026-10-14 12:00:00,542,0.4,-3.41,-0.94,29.31,0.99,28.8,215.36,2026-10-14,c_lev2_full.txt
+H11,d_nofund_full,full,GuideBot,Isolated Futures,2023-02-06 16:00:00,2026-10-14 12:00:00,554,0.41,-7.39,-2.06,28.70,0.97,28.5,215.36,2026-10-14,d_nofund_full.txt
+H11,c_lev2_test,test,GuideBot,Isolated Futures,2025-01-01 00:00:00,2026-10-14 12:00:00,294,0.45,-20.14,-11.84,29.16,0.84,25.5,-28.68,2026-10-14,c_lev2_test.txt
+H11,guide_test,test,GuideBot,Isolated Futures,2025-01-01 00:00:00,2026-10-14 12:00:00,294,0.45,-20.14,-11.84,29.16,0.84,25.5,-28.68,2026-10-14,guide_test.txt
+H11,guide_full,full,GuideBot,Isolated Futures,2023-02-06 16:00:00,2026-10-14 12:00:00,542,0.4,-3.41,-0.94,29.31,0.99,28.8,215.36,2026-10-14,guide_full.txt
+H11,g_test,test,GuideBot,Isolated Futures,2025-01-01 00:00:00,2026-10-14 12:00:00,294,0.45,-20.14,-11.84,29.16,0.84,25.5,-28.68,2026-10-14,g_test.txt
+H11,d_nofund_test,test,GuideBot,Isolated Futures,2025-01-01 00:00:00,2026-10-14 12:00:00,294,0.45,-20.14,-11.84,29.16,0.84,25.5,-28.68,2026-10-14,d_nofund_test.txt
+H11,guide_train,train,GuideBot,Isolated Futures,2023-02-06 16:00:00,2025-01-01 00:00:00,245,0.35,23.43,11.71,15.17,1.23,33.1,375.14,2026-10-14,guide_train.txt
