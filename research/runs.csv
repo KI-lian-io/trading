@@ -189,3 +189,7 @@ H11,guide_train,train,GuideBot,Isolated Futures,2023-02-06 16:00:00,2025-01-01 0
 H13,fee0.002,full,H13MtfMacd,Spot,2019-01-01 00:00:00,2026-10-14 18:00:00,1144,0.4,-98.26,-40.55,98.26,0.43,16.5,2108.57,2026-10-15,H13_fee0.002.txt
 H13,fee0.001,full,H13MtfMacd,Spot,2019-01-01 00:00:00,2026-10-14 18:00:00,1144,0.4,-83.50,-20.65,85.06,0.65,22.7,2108.57,2026-10-15,H13_fee0.001.txt
 H13,fee0,full,H13MtfMacd,Spot,2019-01-01 00:00:00,2026-10-14 18:00:00,1144,0.4,58.97,6.13,28.82,1.15,31.5,2108.57,2026-10-15,H13_fee0.txt
+H14,versionA_fee2x,full,h14_funding_carry.py,Spot long + perp short (2x),2023-01-01 00:00:00,2026-10-14 18:00:00,64,,10.59,2.74,0.9,,,,2026-10-15,H14_A_fee2.txt
+H14,versionA_fee1x,full,h14_funding_carry.py,Spot long + perp short (2x),2023-01-01 00:00:00,2026-10-14 18:00:00,64,,11.89,3.03,0.9,,,,2026-10-15,H14_A_fee1.txt
+H14,versionB_fee2x,full,h14_funding_carry.py,Spot long + perp short (2x),2023-01-01 00:00:00,2026-10-14 18:00:00,101,,8.21,2.11,0.55,,,,2026-10-15,H14_B_fee2.txt
+H14,versionB_fee1x,full,h14_funding_carry.py,Spot long + perp short (2x),2023-01-01 00:00:00,2026-10-14 18:00:00,101,,10.09,2.57,0.54,,,,2026-10-15,H14_B_fee1.txt
