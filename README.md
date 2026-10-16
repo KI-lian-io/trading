@@ -30,6 +30,8 @@ set -a && . ./.env && set +a && .venv/bin/freqtrade trade -c user_data/config_dr
 
 FreqUI runs at http://127.0.0.1:8080 (log in with the username/password from `.env`). Trades are stored in `user_data/tradesv3.dryrun.sqlite`.
 
+To keep it running in the background instead (survives closed terminals and app restarts, and stops the Mac from idle-sleeping), use `./scripts/start_dryrun.sh` and `./scripts/stop_dryrun.sh`. The log goes to `user_data/logs/dryrun.log`. Closing the lid on battery still sleeps the Mac and pauses the bot.
+
 ## Research ledger
 
 Every strategy idea tested so far, with results and lessons, is in [`research/`](research/README.md). Check it before testing something new.
